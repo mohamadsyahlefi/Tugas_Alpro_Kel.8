@@ -1,0 +1,6 @@
+print('\nSelamat datang di Pizza Hut')
+print('\nSilahkan pilih menu topping pizza anda :')
+print('- Frankfurter')
+print('- Meat Monsta')
+print('- Super Supreme')
+print('- Super Supreme Chicken')
