@@ -52,14 +52,17 @@ elif Ukuran == "Large":
   harga_ukuran = 20000
 else: print("Ukuran yang anda masukkan tidak valid.")
 
-tambah_keju = input("Tambahan keju (ya/tidak): ")
-if tambah_keju == 'ya' :
+tambah_keju = input("\nApakah Anda ingin menambah ekstra keju? (y/n)")
+if tambah_keju == 'y' :
     harga_keju = 13000
     print("Dengan tambahan keju")
+    elif tambah_keju == 'n' :
+    harga_keju = 13000
+    print("Tanpa tambahan keju")
 else :
-    print("Tidak dengan tambahan keju")
+    print("Jawaban Anda tidak valid")
 
 total_harga = harga_topping + harga_crust + harga_ukuran + harga_keju
 
 print("Thank you for choosing Pizza Hut Deliveries!")
-print("Your final bill is: Rp ", total_harga)
+print("Your final bill is: Rp", total_harga)
