@@ -27,7 +27,7 @@ print("- CheesyBites")
 print("- Crowncrust")
 print("- StuffedCrust")
 
-crust = int(input("Masukkan pilihan crust pizza Anda: "))
+crust = str(input("Masukkan pilihan crust pizza Anda: "))
 
 if crust in ['Pan Pizza', 'CheesyBites', 'Crowncrust', 'StuffedCrust']:
     harga_crust = 12000
