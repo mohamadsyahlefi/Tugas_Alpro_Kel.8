@@ -8,15 +8,19 @@ print('- Super Supreme Chicken')
 topping = str(input('Masukkan menu pilihan anda: '))
 
 if topping == 'Frankfurter':
+    harga_topping = 40000
     nama_topping = 'Frankfurter'
     
 elif topping == 'Meat Monsta':
+    harga_topping = 45000
     nama_topping = 'Meat Monsta'
     
 elif topping == 'Super Supreme':
+    harga_topping = 50000
     nama_topping = 'Super Supreme'
     
 elif topping == 'Super Supreme Chicken':
+    harga_topping = 55000
     nama_topping = 'Super Supreme Chicken'
 else :
     print("Pilihan Anda tidak valid. Silahkan ulangi program.")
@@ -47,3 +51,15 @@ elif Ukuran == "Medium":
 elif Ukuran == "Large":
   harga_ukuran = 20000
 else: print("Ukuran yang anda masukkan tidak valid.")
+
+tambah_keju = input("Tambahan keju (ya/tidak): ")
+if tambah_keju == 'ya' :
+    harga_keju = 13000
+    print("Dengan tambahan keju")
+else :
+    print("Tidak dengan tambahan keju")
+
+total_harga = harga_topping + harga_crust + harga_ukuran + harga_keju
+
+print("Thank you for choosing Pizza Hut Deliveries!")
+print("Your final bill is: Rp ", total_harga)
