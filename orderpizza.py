@@ -9,19 +9,15 @@ topping = str(input('Masukkan menu pilihan anda: '))
 
 if topping == 'Frankfurter':
     harga_topping = 40000
-    nama_topping = 'Frankfurter'
     
 elif topping == 'Meat Monsta':
     harga_topping = 45000
-    nama_topping = 'Meat Monsta'
     
 elif topping == 'Super Supreme':
     harga_topping = 50000
-    nama_topping = 'Super Supreme'
     
 elif topping == 'Super Supreme Chicken':
     harga_topping = 55000
-    nama_topping = 'Super Supreme Chicken'
 else :
     print("Pilihan Anda tidak valid. Silahkan ulangi program.")
 
