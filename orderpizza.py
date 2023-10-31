@@ -53,7 +53,7 @@ if tambah_keju == 'y' :
     harga_keju = 13000
     print("Dengan tambahan keju")
     elif tambah_keju == 'n' :
-    harga_keju = 13000
+    harga_keju = 0
     print("Tanpa tambahan keju")
 else :
     print("Jawaban Anda tidak valid")
