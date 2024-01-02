@@ -1,4 +1,4 @@
-Tugas 1 Algoritma Pemrograman (27/10/2023)
+Tugas Algoritma Pemrograman (Semester 1)
 
 Kelas 2023D angkatan 2023
 <br>Kelompok 8 :
